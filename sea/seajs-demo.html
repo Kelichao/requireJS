@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>seaJS</title>
+</head>
+<body>
+</body>
+</html>
+<script type="text/javascript" src="./js/sea.js"></script>
+<script type="text/javascript">
+	seajs.config({
+
+		// 基目录
+		// base: '/thsft/js/IStrategy/',
+		alias: {
+			"jquery": "./jquery",
+			"underscore": "./underscore",
+			"proConfig": "./proConfig"
+		},
+
+		// 这个字面上理解是预加载，但是实际效果好像没有用
+		preload:['jquery'],
+
+		// 映射,通过正则在尾部增加后缀名
+		map:[
+			[/^(.*\.(?:css|js))(?:.*)$/i,'$1?v=20161111']
+		]
+	})
+</script>
+
+<script type="text/javascript">
+	
+/* 
+ * 与requireJS不同的是，seaJS的主文件入口
+ * 在
+ */
+seajs.use(['./js/main.js']);
+
+	
+</script>
