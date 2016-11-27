@@ -1,4 +1,4 @@
-# requireJS/seaJS
+# requireJS/seaJS/commonJS规范
 模块化打包分析。
 
 - 官方网址
