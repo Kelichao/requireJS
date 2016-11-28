@@ -7,4 +7,4 @@
 
 - [requireJS](http://www.requirejs.cn/)
 
-- [阮一峰CommomJS](http://www.ruanyifeng.com/blog/2015/05/commonjs-in-browser.html)
+- [阮一峰CommomJS 附带模仿node模块加载器Tiny Browser Require](http://www.ruanyifeng.com/blog/2015/05/commonjs-in-browser.html)
