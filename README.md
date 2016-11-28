@@ -1,7 +1,7 @@
 # requireJS/seaJS/commonJS规范
-模块化打包分析。
 
-# 链接地址
+
+# 模块化打包分析链接地址
 
 - [seaJS](http://seajs.org/docs/)
 
